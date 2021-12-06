@@ -1,0 +1,186 @@
+:root {
+  --black: #1c1c1c;
+  --dark-green: #116604;
+  --light-green: #b5ff40;
+  --cyan: #00ffff;
+  --white: #ffffff;
+  --header-font-size: 50px;
+  --h2-font-size: 30px;
+  --body-font-size: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  position: relative;
+}
+h1 {
+  font-size: var(--header-font-size);
+  font-weight: 700;
+  font-style: bold;
+  color: var(--light-green);
+}
+h2 {
+  font-size: var(--h2-font-size);
+}
+h3 {
+  display: inline-flex;
+  background-color: var(--light-green);
+  color: var(--dark-green);
+  padding: calc(0.25 * var(--body-font-size)) calc(0.5 * var(--body-font-size))
+    calc(0.25 * var(--body-font-size)) calc(0.5 * var(--body-font-size));
+  transform: rotate(5deg);
+}
+#play {
+  z-index: 5;
+}
+.allContent {
+  animation: fadebackground 20s;
+}
+@keyframes fadeBackground {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+p {
+  font-weight: 500;
+  font-style: normal;
+  font-size: var(--body-font-size);
+}
+.fullwidth {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.introContent {
+  max-width: 55vw;
+}
+.moss{
+  position: fixed;
+  width:6vw;
+  height: 6vw;
+  border-radius: 50%;
+  background-color: var(--dark-green);
+  z-index: 10;
+}
+#mossContent{
+  animation: mossIn 20s;
+}
+@keyframes mossIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+@keyframes mossOut {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.artistContent {
+  max-width: 70vw;
+}
+.flexed {
+  display: flex;
+  flex-wrap: flex;
+}
+.comment {
+  width: 55vw;
+  margin: 100px auto 100px auto;
+  padding: 0 30px;
+  border: solid;
+  border-color: var(--light-green);
+}
+.changePadding {
+  padding-top: var(--body-font-size);
+}
+#play {
+  margin: 3vw;
+  width: 5vw;
+  height: 5vw;
+  position: fixed;
+}
+#small {
+  font-size: var(--h3-font-size);
+}
+#bgImage {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 1;
+}
+#introPage {
+  position: relative;
+  z-index: 2;
+}
+#artistPage {
+  position: relative;
+  z-index: 2;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#artist {
+  width: 40vh;
+  transform: rotate(-15deg);
+}
+#album {
+  width: 25vh;
+  transform: rotate(15deg);
+}
+#right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0 10vw;
+}
+#number {
+  font-size: calc(12 * var(--body-font-size));
+  line-height: 0;
+}
+#listInner {
+  padding: calc(5 * var(--body-font-size)) 0 0 3vw;
+}
+#header {
+  font-weight: 700;
+  font-style: bold;
+  color: var(--light-green);
+}
+#rollingHighlight {
+  border: solid;
+  border-color: var(--cyan);
+  border-radius: 50%;
+  padding: calc(0.5 * var(--body-font-size));
+}
+section {
+  margin: 0;
+}
