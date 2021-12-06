@@ -1,7 +1,8 @@
 # Core_Studio_Systems
 # Extra Credit <br/>
-Prompt: Create a website that is a proverb <br/>
-Project:<br/>
+**Prompt: Create a website that is a proverb** <br/>
+
+**Project:** <br/>
 **"A rolling stone gathers no moss"** <br/>
 The website is the rolling stone within this metaphor, when you stop rolling, aka scrolling, some moss appears on the screen and the content fades away. <br/>
 Scrolling the website reverts it back to the original state. <br/>
