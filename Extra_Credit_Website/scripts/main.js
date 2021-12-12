@@ -6,6 +6,7 @@ setInterval(() => {
     didScroll = false;
     document.querySelector(".allContent").style.animation = "fadeIn 1s";
     document.querySelector("#mossContent").style.animation = "mossOut 1s";
+    //document.querySelector(".moss").style.opaciy = "0";
   }
   else {
     document.querySelector(".allContent").style.animation = "fadeBackground 30s";
