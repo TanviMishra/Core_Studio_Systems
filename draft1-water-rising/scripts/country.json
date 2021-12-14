@@ -1,5 +1,6 @@
-{
-  "Belgium": {
+[
+  {
+    "country": "Belgium",
     "altitude": {
       "high": 694,
       "low": -4
@@ -11,7 +12,8 @@
       "present": 0.094
     }
   },
-  "China": {
+  {
+    "country": "China",
     "altitude": {
       "low": -154,
       "high": 8848
@@ -23,7 +25,8 @@
       "present": 10.06
     }
   },
-  "India": {
+  {
+    "country": "India",
     "altitude": {
       "low": -2,
       "high": 8586
@@ -35,7 +38,8 @@
       "present": 2.65
     }
   },
-  "Japan": {
+  {
+    "country": "Japan",
     "altitude": {
       "low": -4,
       "high": 3776
@@ -47,7 +51,8 @@
       "present": 1.16
     }
   },
-  "Lebanon": {
+  {
+    "country": "Lebanon",
     "altitude": {
       "low": 0,
       "high": 3088
@@ -59,7 +64,8 @@
       "present": 0.021
     }
   },
-  "Russia": {
+  {
+    "country": "Russia",
     "altitude": {
       "low": -28,
       "high": 5642
@@ -71,7 +77,8 @@
       "present": 1.71
     }
   },
-  "USA": {
+  {
+    "country": "USA",
     "altitude": {
       "low": -85.5,
       "high": 6190.5
@@ -83,7 +90,8 @@
       "present": 5.41
     }
   },
-  "Zambia": {
+  {
+    "country":"Zambia",
     "altitude": {
       "low": -329,
       "high": 2329
@@ -95,4 +103,4 @@
       "present": 0.004
     }
   }
-}
+]
