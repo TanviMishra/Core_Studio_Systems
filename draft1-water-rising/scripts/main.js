@@ -1,7 +1,7 @@
 let ceThreshold = 1000; //in billions
 let waterRise = 1; //when ce reaches 1000, water rises by 1m
 let rateOfRise=waterRise/ceThreshold //meters per CE
-let initialWaterLevel=50;
+let initialWaterLevel=75;
 let currentWaterLevel=initialWaterLevel;
 let ceInitial=100;
 let ceTotal=ceInitial;
@@ -9,6 +9,7 @@ let humanPos=[200,200];
 
 let human=document.querySelector("#human");
 let water=document.querySelector("#water");
+let land=document.querySelector("#land");
 
 //all sliders
 let techSlider = document.querySelector("#techSlider");
@@ -19,6 +20,9 @@ let techSliderInfo = 0;
 let foodSliderInfo = 0;
 let wasteSliderInfo = 0;
 let energySliderInfo = 0;
+
+//country values initalised from continentCreator
+let valueSetBottom, valueSetTop, temp;
 
 //mapping values function
 function scale (number, inMin, inMax, outMin, outMax) {
