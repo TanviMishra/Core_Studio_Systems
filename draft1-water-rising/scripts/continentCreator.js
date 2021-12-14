@@ -1,9 +1,15 @@
-// Replace ./data.json with your JSON feed
-fetch("./country.json").then(response => {
+url="https://raw.githubusercontent.com/TanviMishra/Core_Studio_Systems/main/draft1-water-rising/scripts/country.json"
+fetch(url).then(response => {
     return response.json();
   }).then(data => {
     // Work with JSON data here
-    console.log(data);
+    maxTop=data.china.altitude.high;
+    minBottom=data.china.altitude.low;
+    countryTop = data.Belgium.altitude.high;
+    countryBottom = data.Belgium.altitude.low;
+    countryTopFormatted=scale(countryTop,maxTop,minBottom,0,window.innerHeight)
+    
+    
   }).catch(err => {
-    // Do something for an error here
+    console.log("error loading data")
   });
