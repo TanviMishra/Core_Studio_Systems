@@ -64,4 +64,9 @@ p {
   position: absolute;
   left: 10px;
   top: 10px;
+  background-color: blue;
+  color: white;
+  border-style: none;
+  border-color: transparent;
+  padding: 5px 10px;
 }
