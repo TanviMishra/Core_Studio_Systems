@@ -12,7 +12,7 @@ Extra Feature: click the record to play music and watch it spin as you scroll th
 *Project Link: https://tanvimishra.github.io/Core_Studio_Systems/Extra_Credit_Website/*
 
 # Futures Research <br/>
-** Prompt: Considering a potential future that results from the impact of a current social phenomena, create an object or design that might exist in that future which involves some type of interface. ** <br/>
+**Prompt: Considering a potential future that results from the impact of a current social phenomena, create an object or design that might exist in that future which involves some type of interface.** <br/>
 
 **Project:** <br/>
 **"Carbon Accounting"** <br/>
