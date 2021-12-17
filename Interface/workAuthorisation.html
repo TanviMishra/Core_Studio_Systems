@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarbonCopy</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" media="screen" />
+</head>
+    
+<body>
+    <section id="page1">
+        <header>
+            <a href="index.html">ALCORPS</a>
+        </header>
+        <div id="workCard">
+            <h1>WORK AUTHORISATION CARD</h1>
+            <div class="flex">
+                <img src="./assets/img/profile.png" class="" alt="World Profile Picture">
+                <form>
+                    <!--<label for="authNumber">Work Authorisation Number:</label>
+                    <input type="password" id="authNumber" name="authNumber">
+                    <br>-->
+                    <label for="ageValue">Age:</label>
+                    <input type="number" min="16" max="20" step="1" value="16" id="ageValue" name="ageValue">
+                    <br>
+                    <label for="years">Authorisation Time Limit:</label>
+                    <input type="number" min="5" max="35" step="5" value="10" id="years" name="years">
+                    <br>
+                    <label for="homeSelector">Home Country:</label>
+                    <select name="homeSelector" id="homeSelector">
+                        <option value="">--select--</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="China">China</option>
+                        <option value="India">India</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Lebanon">Lebanon</option>
+                        <option value="Russia">Russia</option>
+                        <option value="USA">USA</option>
+                        <option value="Zambia">Zambia</option>
+                    </select>
+                    <br>
+                    <label for="countrySelector">Destination Country:</label>
+                    <select name="countrySelector" id="countrySelector">
+                        <option value="">--select--</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="China">China</option>
+                        <option value="India">India</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Lebanon">Lebanon</option>
+                        <option value="Russia">Russia</option>
+                        <option value="USA">USA</option>
+                        <option value="Zambia">Zambia</option>
+                    </select>
+                  </form>
+            </div>
+        </div>
+        <button id="gotopage2" onclick="pageNav1()">HEAD TO WORK</button>
+    </section>
+    <section id="page2">
+        <div id="colours">
+            <div id="land"></div>
+            <div id="human"></div>
+            <div id="water"></div> 
+            <div id="dead">DEAD</div> 
+            <div class="consumptionSlides">
+                <p>Tech</p>
+                <input type="range" min="50" max="300" value="200" class="slider" id="techSlider">
+                <p>Food</p>
+                <input type="range" min="0" max="200" value="100" class="slider" id="foodSlider">
+                <p>Waste</p>
+                <input type="range" min="100" max="500" value="350" class="slider" id="wasteSlider">
+                <p>Energy</p>
+                <input type="range" min="300" max="800" value="500" class="slider" id="energySlider">
+            </div>
+            <div class= "workButtons">
+                <button onclick="lifeFunctions(-50)">Ground Work</button>
+                <button onclick="lifeFunctions(-70)">Boat Person</button>
+            </div>
+            <button id="gotopage1" onclick="pageNav2()">BACK</button>
+            <!-- <a href="./workingLand.html">WORK</a> -->
+        </div>
+    </section>
+    
+</body>
+<script src="./scripts/main.js"></script>
+<script src="./scripts/continentCreator.js"></script>
+<script src="./scripts/initialCE.js"></script>
+<script src="./scripts/emissionCheck.js"></script>
+<script src="./scripts/waterlevel.js"></script>
+<script src="./scripts/colCheck.js"></script>
+</html> 

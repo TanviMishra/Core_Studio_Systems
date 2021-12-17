@@ -1,0 +1,107 @@
+[
+    {
+      "country": "Belgium",
+      "altitude": {
+        "high": 694,
+        "low": -4
+      },
+      "landArea": 11691,
+      "population": 0.15,
+      "carbonCredit": {
+        "historical": 0.75,
+        "present": 0.26
+      }
+    },
+    {
+      "country": "China",
+      "altitude": {
+        "low": -154,
+        "high": 8848
+      },
+      "landArea": 3624807,
+      "population": 18.47,
+      "carbonCredit": {
+        "historical": 12.5,
+        "present": 29.18
+      }
+    },
+    {
+      "country": "India",
+      "altitude": {
+        "low": -2,
+        "high": 8586
+      },
+      "landArea": 1147955,
+      "population": 17.7,
+      "carbonCredit": {
+        "historical": 3,
+        "present": 7.09
+      }
+    },
+    {
+      "country": "Japan",
+      "altitude": {
+        "low": -4,
+        "high": 3776
+      },
+      "landArea": 140755,
+      "population": 1.62,
+      "carbonCredit": {
+        "historical": 4,
+        "present": 3.47
+      }
+    },
+    {
+      "country": "Lebanon",
+      "altitude": {
+        "low": 0,
+        "high": 3088
+      },
+      "landArea": 3950,
+      "population": 0.09,
+      "carbonCredit": {
+        "historical": 0.04,
+        "present": 0.06
+      }
+    },
+    {
+      "country": "Russia",
+      "altitude": {
+        "low": -28,
+        "high": 5642
+      },
+      "landArea": 6323142,
+      "population": 1.87,
+      "carbonCredit": {
+        "historical": 6,
+        "present": 4.65
+      }
+    },
+    {
+      "country": "USA",
+      "altitude": {
+        "low": -85.5,
+        "high": 6190.5
+      },
+      "landArea": 3531837,
+      "population": 4.25,
+      "carbonCredit": {
+        "historical": 25,
+        "present": 14.02
+      }
+    },
+    {
+      "country":"Zambia",
+      "altitude": {
+        "low": -329,
+        "high": 2329
+      },
+      "landArea": 287024,
+      "population": 0.24,
+      "carbonCredit": {
+        "historical": 0.014,
+        "present": 0.01
+      }
+    }
+  ]
+  
